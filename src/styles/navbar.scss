@@ -1,0 +1,54 @@
+.NavBar {
+  height: 100vh;
+
+  .nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .img {
+    height: 250px;
+    width: 95%;
+    border-radius: 100%;
+    border: 5px solid #2e344e;
+    margin-bottom: 1rem;
+  }
+
+  .profile {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    border-bottom: 1px solid #2e344e;
+  }
+
+  .nav-items {
+      width: 100%;
+    .nav-item {
+      
+      list-style: none;
+      text-align: center;
+      a {
+        text-decoration: none;
+        font-size: inherit;
+        color: inherit;
+        display: block;
+        padding: 0.5rem 0;
+      }
+    }
+  }
+  .footer {
+    border-top: 1px solid #2e344e;
+    width: 100%;
+    text-align: center;
+    p {
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+  .active{
+      background-color: #037FFF
+  }
+}
