@@ -1,0 +1,63 @@
+.ImageSection {
+  display: flex;
+  margin-top: 4rem;
+  height: 40vh;
+  .about-me {
+    font-size: 14px;
+    padding: 1rem 0;
+  }
+  .img {
+    width: 100%;
+    height: 50vh;
+    img {
+      width: 390px;
+      height: 390px;
+      object-fit: cover;
+    }
+  }
+
+  .about-info {
+    margin-left: 2rem;
+    h4 {
+      font-size: 2rem;
+    }
+  }
+  .about-details {
+    font-size: 14px;
+    .personal-details {
+      display: flex;
+      p {
+        padding: 0.3rem 0;
+      }
+    }
+  }
+}
+
+.btn{
+    padding: 1rem 2rem;
+    background-color: #037FFF;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: .3rem;
+        left: 0;
+        bottom: 0;
+        background-color: #a4acc4;
+        transition: all .4s ease-in-out;
+    }
+    &:hover::after{
+        width: 100%;
+    }
+
+}
