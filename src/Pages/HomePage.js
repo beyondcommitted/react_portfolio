@@ -18,7 +18,7 @@ export default function HomePage() {
                     <Link className='icon-holder'>
                     <FontAwesomeIcon icon={faGithub} className='icon' />
                     </Link>
-                    <Link className='icon-holder' src='https://www.linkedin.com/in/breon-sparrow-31bb24205/' alt='LinkedIn' target='_blank'>
+                    <Link className='icon-holder' href='https://www.linkedin.com/in/breon-sparrow-31bb24205/'alt='LinkedIn' target='_blank'>
                     <FontAwesomeIcon icon={faLinkedin} className='icon' />
                     </Link>
                     <Link className='icon-holder'>
